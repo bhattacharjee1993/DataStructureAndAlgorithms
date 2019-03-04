@@ -7,6 +7,7 @@ public class SelectionSort {
     //This method makes use of the Utils class to get the input from the user.
     public static void process(){
         int[] input =Utils.takeInput();
+        sortElements(input);
     }
 
     //used for sorting the elements
